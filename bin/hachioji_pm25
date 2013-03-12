@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'hachioji'
+
+pc = Hachioji::Pm25Client.new
+pc.parse
+print pc.averages_24h
+
+print "\n"
