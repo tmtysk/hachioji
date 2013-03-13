@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Hachioji::VERSION
   spec.authors       = ["tmtysk"]
   spec.email         = ["tmtysk@gmail.com"]
-  spec.description   = %q{Utilities for people living in Hachioji}
-  spec.summary       = %q{Utilities for people living in Hachioji}
+  spec.description   = %q{Utilities for programmers in Hachioji}
+  spec.summary       = %q{Utilities for programmers in Hachioji}
   spec.homepage      = ""
   spec.license       = "MIT"
 

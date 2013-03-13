@@ -54,6 +54,17 @@ module Hachioji::Taikikanshi
       end
     end
 
+    def latest_values
+      values = {}
+      parse if !@values
+
+      @areas.each do |area|
+        values[area] = @values[area].values.last
+      end
+
+      values
+    end
+
     class << self
       def endpoint_path(path)
         define_method("endpoint_url") {
@@ -90,8 +101,6 @@ module Hachioji::Taikikanshi
           averages
         }
       end
-
-
 
       def measured_value_type(type)
         available_average if type == :float || type == :integer
