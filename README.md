@@ -20,8 +20,8 @@ Or install it yourself as:
 
 ### Taikikanshi module
 
-This module includes unofficial wrapper classes for "八王子市大気汚染常時監視測定結果 / http://www.taikikansi-hachioji.jp/realtime.htm"
-See http://www.taikikansi-hachioji.jp/realtime.htm for details to operate/understand gotten values before using this module.
+This module includes unofficial wrapper classes for "八王子市大気汚染常時監視測定結果 / http://www.taikikansi-hachioji.jp/realtime.htm".
+See http://www.taikikansi-hachioji.jp/realtime.htm to operate/understand gotten values before using this module.
 
 Getting latest wind direction:
 
@@ -45,3 +45,6 @@ Confirm with command line:
     Average in last 24H:
             {"片倉"=>17.958333333333332, "館"=>12.875, "八木"=>15.583333333333334, "打越"=>16.0}
 
+## Lisence
+
+MIT.
